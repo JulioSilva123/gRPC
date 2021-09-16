@@ -17,10 +17,19 @@ namespace gRPCHelloWord
 
         public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         {
-            return Task.FromResult(new HelloReply
+            HelloReply r = new HelloReply();
+
+            if (request.Name != null)
             {
-                Message = "Hello " + request.Name
-            });
+                r.Message = "Hello " + request.Name;
+            }
+
+            if (request.Sobrenome != null)
+            {
+                r.Message += "\nSobrenome: " + request.Sobrenome;
+            }
+
+            return Task.FromResult(r);
         }
     }
 }
