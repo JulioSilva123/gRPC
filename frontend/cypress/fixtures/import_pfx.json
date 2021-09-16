@@ -1,0 +1,10 @@
+[
+  {
+    "password": "12345678",
+    "file": "testFiles/alice.pfx"
+  },
+  {
+    "password": "12345678",
+    "file": "testFiles/bob.pfx"
+  }
+]

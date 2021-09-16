@@ -1,0 +1,7 @@
+{
+  "aes256":"AES 128",
+  "bpp256r1":"Brainpool 256 R1",
+  "rsa2048":"RSA 2048",
+  "rsa3072":"RSA 3072",
+  "secp256r1":"SECP 256 R1"
+}

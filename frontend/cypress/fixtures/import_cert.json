@@ -1,0 +1,4 @@
+{
+  "binFile": "testFiles/labCert.cer",
+  "pemFile": "testFiles/ca_cert.pem"
+}

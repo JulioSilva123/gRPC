@@ -1,0 +1,656 @@
+i18n:
+  en-US: English
+  pt-BR: Português
+
+
+$vuetify:
+  dataTable:
+    ariaLabel:
+      sortNone: Sort none
+      sortAscending: Sort ascending
+      sortDescending: Sort descending
+      activateNone: None
+      activateAscending: Ascending
+      activateDescending: Descending
+    itemsPerPageText: 'Items per page:'
+    sortBy: Sort by
+  dataFooter:
+    nextPage: Next page
+    prevPage: Previous page
+    pageText: '{0}-{1} de {2}'
+    itemsPerPageAll: All
+  noDataText: No data founded
+
+$validation:
+  required: Required data
+  exact_length: Required {num} digits
+  min_length: Min length is {num}
+  max_length: Max length is {num}
+  same_as: Info is not the same
+  min_upper: Required {num} uppercase letters
+  min_lower: Required {num} lowercase letters
+  min_special: Required {num} special letters
+  invalid_token: Invalid token
+  invalid_email: Invalid email
+  only_number: Type the numeric code of {num} digits
+  invalid_alpha_numeric: Only alphanumeric characters are valid
+  invalid_numeric: Only digits are valid
+  invalid_mask: Invalid mask, use only "*" and "_"
+  wrong_password: Incorrect password
+  invalid: '{field} invalid'
+and: and
+welcomeMessage: Welcome to Dinamo Services
+language: Language
+profile: Profile
+people: People
+home: Home
+offers: Offers
+name: Name
+actions: Ações
+change_role: Change role
+remove_from_organization: Remove from organization
+remove: Remove
+remove_member: Remove member
+member_removal_warning: The following members will be removed from
+cancel: Cancel
+confirm: Confirm
+close: Close
+invite_account: Invite account
+invite: Invite
+invite_email_label: Search by email
+first_last_name: First and last name
+username: Username
+email: Email
+otp: OTP
+password: Password
+forgot_pwd: Forgot your password?
+recover_account: Recover Account
+signin: Sign in
+sign_up: Sign up
+do_sign_in: Sign in
+# reset password
+reset_password: Reset password
+reset_pwd_message: We will send you an email with a password reset link
+reset_pwd_sent_message: We have sent an email to the address registered with this account containing the link to reset your password.
+send: Send
+send_email: Send Email
+confirm_password: Confirm password
+change_password: Change password
+# management
+management_title: Management
+profile_picture: Profile picture
+update_profile: Update profile
+your_organizations: Your Organizations
+logout: Logout
+add_organization: Add organization
+receive_updates: Send me occasional product updates, announcements, and offers.
+new_here: New here?
+create_account: Create an account
+email_verified_message: Email verified successfully
+not_authorized: Not authorized
+not_found: Not found
+new_password: New password
+err: Error
+error:
+  already_member: Account is already member
+  email_not_found: No account found with this email
+  invalid_code: Incorrect code
+  wrong_password: Incorrect password
+  login_denied: Email and password don't match
+  wrong_code: Wrong code
+  email_already_exists: Email in use
+  missing_recaptcha: Verify the recaptcha
+  account_not_active: Email needs to be verified
+  server_unreachable: Server unreachable
+  session_timeout: Session expired
+  invalid_act_token: Invalid activation token
+  account_not_found: Account not found
+  account_already_active: Account already active
+  internal_error: Internal error
+  invalid_skey: Invalid API Token
+  hsm_has_log_telemetrized: HSM has telemetrized. Can't be erased
+  service_not_contracted: Service not contracted
+  label_required: Tag required
+  cpfcnpj_required: CPF/CNPJ required
+  name_of_apikey_required: Tag required
+  recaptcha_required: Recaptcha required
+  405: Method not allowed
+  # frontend
+  unable_to_block: Error blocking the certificate
+  service_not_found: Service not found
+password_updated: Password modified
+enter_your_email: Enter your email
+type_received_code: Type the received code
+enter_new_password: Enter a new password
+problems_with_signup: There were problems creating your account
+privacy_statement: Privacy Statement
+terms_of_service: terms of service
+applicable_fees: applicable fees
+signup_disclaimer: By clicking in "Sign up", you agree to our
+verification_email_sent: Verification email sent
+register: Register
+register_hsm: Register HSM
+copy: Copy
+add_hsm_tip: To connect a HSM to this account, open the HSM's Web Console, section 'Dinamo Services', and paste both codes above.
+AddHsmModal_tag_hint: Choose an alias refering to this HSM
+loading: Loading
+monitor: Monitor
+event: Event | Events
+change: Change
+success: Success
+# Management
+role: Role | Roles
+roles_management: Roles management
+role_name_hint: Finance, Support, Legal
+add_role: Add role
+edit_role: Edit role
+operations:
+  add_account_to_role: Add account to role
+  add_hsm: Add HSM
+  add_role: Add role
+  add_trusted_account: Add trusted account
+  remove_role: Remove role
+save: Save
+permissions: Permissions
+transitiveness: Transitiveness
+yes: Yes
+no: No
+invite_suc_message: Account added
+invite_name_label: Trusted account name
+set_psk: Get PSK
+psk_tip: Copy the code above and store it safely
+set_psk_tip: Click in the button below to generate the PSK
+confirm_remove: Confirm removal of
+confirm_leave: Confirm exit from 
+searching: Searching
+add_hsm: Add HSM
+leave_from: Exit from
+transferable_tip: Click on the permission to make it transferable to other accounts
+transferable_caption: Permission is transferable
+not_transferable_caption: Permission is NOT transferable
+log_monitor: Events monitor
+give_access: Give access
+options: Options
+add_partition: Adicionar partição
+my_account: My account
+real_time_events: Real time events
+resend_email: Send again
+email_sent_title: Next, confirm your email adress
+email_sent_subtitle: We've sent an email to
+email_sent_subtitle2: Click in the link inside
+email_sent_resend_msg: if you did not received the email, 
+to_start: Start
+stop: Stop
+reload: Reload
+show_bind_key: Show Bind Key
+create_bind_key: Create bind key
+create_hsm: Create HSM
+bind_key: Bind key
+copied: Copied
+verification_code: Verification code
+search: Search
+partner_page_title: Authentication successful
+partner_page_message: New account created
+manage_account: Manage your account
+personal_info: Personal info
+security: Security
+authentication: Authentication
+security_tab_description: Options to manage your security parameters
+payment: Payment | Payments
+tfa: Two-factor authentication
+on: On
+off: Off
+contact_info: Contact info
+phone: Mobile phone
+creation: Creation
+personalinfo_tab_description: Basic info you use on Dinamo Services
+other_option: Other options
+other: Other | Others
+verify_identity_msg: To continue, first verify it's you
+enter_your_password: Enter you password
+next: Next
+new_password_tip: Use at least 8 characters
+password_strength: Password strength
+preferences: Preferences
+preferences_tab_description: Choose yours preferences
+# appearance: Aparência
+# appearance_card_subtitle: Customize the interface
+theme: Theme
+generate: Generate
+dashboard: Dashboard
+certificate: Certificate | Certificates
+key: Key | Keys
+key_management: Key Management
+secret: Secret | Secrets
+chain: Chain | Chains
+account: Account | Accounts
+service: Service | Services
+telemetry: Telemetry
+settings: Settings
+billing: Billing
+api_key: API Token | API Tokens
+hsm_lan: HSM LAN
+permission: Permission | Permissions
+notification: Notification | Notifications
+available: Available
+unhire_service: Cancel service
+hire_service: Contract service
+hire: Purchase
+hired: Contracted
+unhire: Cancel
+service_unhired: Service canceled
+service_hired: Service contracted
+no_hsm_title: You don't have registered HSMs
+no_hsm_subtitle: Create a bind string and paste it at your HSM console.
+no_permission_title: You don't have permission
+no_permission_subtitle: Add one to use permissions
+no_api_key_title: Create your first API Token
+no_api_key_subtitle: The API Token is used to identify you when consuming services through software.
+no_key_no_cert_title: It looks like you don't have any resources yet
+no_resource_tip: Add resources by clicking in the '+' button
+no_key_title: You don't have registered keys
+no_cert_title: You don't have registered certificates
+no_secret_title: You don't have registered secrets
+no_chain_title: You don't have registered chains
+obtain: Obtain
+create: Create
+consumption: Consumption
+account_activated: Account activated
+verify_recaptcha: Verify recaptcha
+create_api_key: Create API Token
+edit_api_key: Edit API Token
+api_key_created: Make sure to copy your new personal access token now.It won't be shown again for your security.
+api_key_deleted: API Token deleted
+api_key_updated: API Token updated
+apiKey_hint_p1: See more at our
+api_docs: API documentation
+get_key: Get key
+mk_understand_msg: I'm aware that I'm responsible for guarding this token
+delete: Delete
+confirm_delete: Confirm deletion of
+account_deleted: Account deleted
+admin: Admin
+update: Update
+your: Your
+signatures: Signatures
+with_crypto_keys: With cryptographic keys
+pix: Pix
+spb: SPB
+total_cert_keys: Total of keys and certificates
+add: Add
+space_in_use: Space in use
+daily_occurrences: Daily occurrences
+edit: Edit
+export: Export
+block: Block
+unblock: Unblock
+view_details: View details
+select_type: Select type
+create_key: Create Key
+edit_key: Edit Key
+servic_SPB: Brazilian payment system
+service_PIX: Instant payment
+service_EFT: Electronic Funds Transfer
+service_GC: Certificate management
+service_OTP: OTP strong authentication
+service_Assinador: Enables digital or electronic signature of documents
+service_Cripto: Data encryption
+type: Type
+emit_csr: Emit CSR
+emit: Emit
+csr_organization: Organization (O)
+organization_unit: Organization Unit (OU)
+common_name: Common Name (CN)
+locality: Locality (L)
+state_label: State (S)
+country: Country (C)
+distiguish_name: Distinguish Name (/CN=common name/O=organization name/OU=organization unit name/L=city name/S=state name/C=two letter ISO code/E=e-mail)
+or: Or
+import: Import
+import_p12: Import pfx/pkcs12
+import_cert: Import certificate
+import_chain: Import chain
+drag_n_drop_to_upload: Drag and drop file here
+or_click_to_select_in_your_computer: ...or click to select the file in your computer
+get_bind_key: Get bind key
+hsm_details: HSM's details
+key_details: Key's details
+cert_details: Certificate's details
+serial_number: Serial Number
+hardware_version: Hardware Version
+firmware_version: Firmware Version
+model: Model
+key_label: Key tag
+cert_label: Certificate tag
+password_optional: Password (optional)
+save_to_file: Save to File
+all_hsms: All HSMs
+csr_material: CSR material
+usrc: User count
+objc: Object count
+logl: Log length
+last_cloud_connection: Last cloud connection
+label: Tag
+detail: Detail | Details
+last_days: Last {num} days
+created_at: Created at
+edit_cert: Edit certificate
+cert_info: Certificate info
+not_valid_before: Not before
+not_valid_after: Not after
+emited_by: Emited by
+emited_for: Emited for
+key_usage: Key usage
+all_objects: All resources
+signatures_summary: Signatures summary
+refresh: Refresh
+no_data: No data
+list_view: List view
+grid_view: Grid view
+add_object: Add resource
+account_id: Account ID
+edit_chain: Edit chain
+scale: scale
+use: use
+use_scale: Use {scale} scale
+linear: linear
+logarithmic: logarithmic
+organization: Organization
+sign_total: Occurrences total
+key_usage_key_agreement: Key agreement
+key_usage_key_encipherment: Key encipherment
+key_usage_data_encipherment: Data encipherment
+key_usage_digital_signature: Digital signature
+key_usage_content_commitment: Content commitment
+transac_cost: Cost per occurrence
+volume: Volume
+price: Price | Prices
+service_fee: Monthly fee
+service_confirm_hire_title: Confirm service hiring
+service_confirm_hire_msg: Do you confirm the hiring of the service?
+service_confirm_cancel_title: Confirm service cancelation
+service_confirm_cancel_msg: Do you confirm the cancellation of the service?
+from: from
+to: to
+above: Above
+certificates_usage_report: Certificates report
+key_name: Key
+hsm_id: HSM ID
+event_type: Type
+no_cert_report_title: It looks like you don't have any occurrences in this period
+no_cert_report_subtitle: Make use of the services to generate new occurrences
+total_uses: Total of uses
+date_interval: Date interval
+resource_not_found: Resource not found
+hsm_not_found: HSM não encontrado
+months:
+  january: January | Jan
+  february: February | Feb
+  march: March | Mar
+  april: April | Apr
+  may: May | May
+  june: June | Jun
+  july: July | Jul
+  august: August | Aug
+  september: September | Sep
+  october: October | Oct
+  november: November | Nov
+  december: December | Dec
+user: User
+date: Date
+start_date: Start date
+end_date: End date
+no_blocked_cert_title: It looks like you don't have any blocked certificates in this HSM
+no_blocked_cert_subtitle: Block a certificate by clicking in the '+' button
+block_cert: Block certificate
+transac_coef: Transactional coefficient
+value: Value
+occurrences_by_type: Occurrences by type
+hsm_not_binded: HSM not binded
+this_month: This month
+last_month: Last month
+last_7_days: Last 7 days
+more_options: More options
+last_60_days: Last 60 days
+last_90_days: Last 90 days
+custom: Custom
+just_now: a few seconds ago
+second: segundo | segundos
+minute: minute | minutes
+hour: hour | hours
+day: day | days
+month: month | months
+year: year | years
+apply: Apply
+block_certs: Block certificates
+block_cert_in_this_hsms: Block certificate in this HSMs
+blockade: Blockade
+remove_blocked_cert_warning: By deleting this certificate you also remove blockade of it in all yours HSMs
+affected_hsms: HSMs affected
+version: Version
+cert_serial_number: Serial number
+sign_alg: Signature algorithm
+delete_account: Delete account
+self_delete_modal_title: Are you sure you want to delete your account?
+self_delete_modal_warning: 'You will lose all information pertaining to this account, including: contracted services, keys and certificates.' 
+self_delete_modal_disclaimer_1: Before proceeding, review the
+self_delete_modal_disclaimer_2: on deleting accounts
+self_delete_modal_require_msg: Enter your password to confirm
+self_delete_button: Cancel services and delete account
+critical_area: Critical area
+node_id: Node ID
+record_session: Record session
+recording: Recording
+recording_stopped: Recording stopped
+not: Not
+unkonwn: unkonwn
+time_ago: ago
+official_docs: API documentation
+see_more_on_our: For details on the APIs see our
+vault: safe | safes
+token: token | tokens
+cloud_tokens: Tokens on Cloud
+list_tokens: List tokens
+retrieve_data: Retrieve data
+retrieve_data_cloud: Retrieve data from token on cloud
+retrieve_data_external: Retrieve data from downloaded token
+tokenize_data: Tokenize data
+tokenize: Tokenize
+get_token: Get token
+no_vault_title: It looks like you don't have any vaults yet
+no_vault_subtitle: Click in button below to create your first vault
+no_token_title: You don't have tokens in this vault
+no_token_subtitle: Create a token with the Cloud storage option
+download: Download
+select_vault: Select vault
+create_vault: Create vault
+base: Base
+cks: Format type
+mask: mask
+data_entry: Data entry
+original_data: Original data
+param_selection: Parameter selection
+vault_tag_hint: Identification tag for the token
+vault_base_hint: Character set allowed in tokens created with this engine
+vault_cks_hint: Token formatting rule
+vault_mask_encode_hint: Mask to be applied to the token
+vault_mask_decode_hint: Mask to be applied to the secret
+vault_data_hint: Confidential data to be tokenized
+create_vault_hint: New vault name
+vault_deletion_warning: 'Warning: associated tokens will also be deleted'
+select_vault_hint: Vault used in tokenization
+token_output_hint: Use it to replace your secret
+save_for_me: Keep it safe for me
+blob_output_hint: This file is required to retrieve you secret, store it somewhere safe
+svault: LGPD anonymization
+# engine
+engine: Engine | Engines
+engine_pref_storage: Storage mode
+engine_tag_hint: Identification tag for the engine
+create_engine: Create engine
+engine_detail: Engine detail
+manage_engines: Manage engines
+select_engine: Select engine
+use_param_from_engine: Usar parâmentros de um mecanismo 
+no_engine_tip: This parameters can be saved for later use by creating an engine
+internal_storage: Cloud
+external_storage: Download
+engine_explanation: These criteria will be applied to tokens created from this mechanism
+#
+no_engine_title: Looks like  you dont have any engines yet
+no_engine_subtitle: To create a new token you need at least one engine
+engine_fields_tips: This parameters will be applied to each token created with this engine
+engine_duration: Tempo de vida padrão
+engine_checksum: Format
+engine_format: Base
+engine_condensed_option: Format
+engine_storage: Storage
+engine_metadata: Metadata
+engine_created: Created at
+decode_file_input_hint: Select the file returned during the token creation
+input: Input | Inputs
+retrieve: Retrieve
+welcome_offer_section_title: Services
+welcome_top_message: Now you have the technology of the pioneer in digital security and encryption in Brazil, in Cloud Computing mode. It is cutting edge security for the best cost x benefit!
+welcome_to: Welcome to
+make_your: Make your
+new_account: new account
+meet_dinamo: meet dinamo
+encode_persist_tip: This choice will override the engine's storage parameter
+encode_storage: Storage
+pricing_detail: Consult pricing details
+contact_us: Contact us
+public_cloud: Public Cloud
+private_cloud: Private Cloud
+
+checksum:
+  cnpj: "CNPJ"
+  cpf: "CPF"
+  iel: "Voter title"
+  nocheck: "None"
+  pan: "Credit card"
+
+vformat:
+  base10: Loose numeric
+  base62: Loose alphanumeric
+
+help:
+  mask: "Ex: the mask '_*****' applied to 'Dinamo' results in 'D*****'"
+
+back: Back
+storage_mode_decode: Storage mode used to create the token
+mask_hint: Use * to obfuscate a position and _ to make it visible
+show_field_help: Input example
+subscribe: Contract
+contract_service_to_use: You need to hire the appropriate service before using this functionality
+check_service: check service
+closed_invoice: Closed invoice
+due_on: Due on
+spending_on_period: Spent in this period
+email_resent: Email resent
+quantity: Quantity
+fixed_value: Fixed value
+variable_value: Variable value
+coefficient: Coefficient
+subtotal: Subtotal
+no_invoice_title: Looks like you don't have any closed invoices yet
+no_consumption: No consumption in this period
+cert_report_warning: This report includes the usage from certificates currently present on your account. Be sure that the certificate you are looking is listed on 
+extract: Extract
+billing_history: Billing history
+invoice: Invoice
+period: Period
+charged_period: Charged period
+hired_since: Contracted since
+expiration: Expiration
+contract_id: Contract ID
+offer_name: Service name
+load_more: Load more
+contract_finished_on: Contract finished on
+billing_tab_1: Extract
+billing_tab_2: Invoices
+billing_tab_3: Contracts 
+active_contract: active contract | active contracts
+start: Start
+end: End
+file_encryption: Safe file
+encrypt: Encrypt
+decrypt: Decrypt
+file_encryption_msg: This service is provided free of charge to individuals and uses the cryptographic technology from your browser and operating system, so your files are not transmitted or stored by third parties or by 
+file_encryption_details: Encryption based on PBKDF2, AES-256 and GCM
+file_encryption_error: Encryption error, corrupted file or incorrect password
+account_timezone: Time zone
+to_know_our_services: ' to know our services'
+occurrence: Occurrence | Occurrences
+enabled_occurrence: Enabled occurrences
+occurrence_descriptions:
+  occ_1: Generic cryptographic key touch
+  occ_2: RSA key touch
+  occ_3: ECC key touch
+  occ_4: ECX key touch
+  occ_5: Pix xml sign
+  occ_6: Pix xml verify
+  occ_7: Pix sign
+  occ_8: Pix verify
+  occ_9: Pix dict sign
+  occ_10: Pix dict verify
+  occ_11: Pix jws gen
+  occ_12: Pix jws check
+  occ_13: Use of key for CSR generation
+  occ_14: SPB encode
+  occ_15: SPB decode
+  occ_16: Any spb encode
+  occ_17: Any spb decode
+  occ_18: cip1 encode
+  occ_19: cip1 decode
+  occ_20: Token creation for pseudonymization
+  occ_21: Retrieve secret from token data
+  occ_22: Private key touch alert sent via SMS
+  occ_23: Private key touch alert sent via Whatsapp
+  occ_24: Private key touch alert sent via Email
+description: Description
+billable_occurrences_types: Billable occurrences types
+free_service: Free service
+file_password: File password
+encryption: encryption
+decription: decryption
+demo: '{arg} Demonstration'
+pessoa_identifier: CPF/CNPJ
+company: Company
+tax_payer: CPF/CNPJ
+system: system
+light: light
+dark: dark
+sign_up_with: Sign un with {provider}
+unit_price: Unit price
+contract: Contract | Contracts
+encrypt_with: Use in file encryption
+create_secret: Create secret
+edit_secret: Edit secret
+file_encrypt_secret_hint: Select an encryption secret, you will need it when decrypting
+file_encrypt_secret_label: Secret used in encryption
+custom_secret_option: Enter your own password
+resource: Resource | Resources
+confirm_resource_id: Enter the resource ID to confirm
+account_tlm: Telemetry
+resource_has_been_removed: The resource has been removed
+selected_hsm_not_binded: The selected HSM is not binded.
+hsm_not_binded_tip: Use one of your HSM's management consoles to bind it.
+usage_snapshot: Usage snapshot
+usage_summary: Usage summary
+alert: Alert | Alerts
+alert_recipient_account: Alert recipient
+alert_recipient_hint: Super Cloud account email
+create_alert: Create alert
+alert_type: Alert type
+remove_alert: Remove alert
+add_alert: Add alert
+tracking_delay_warning: The tracking start may take up to 30 minutes
+remove_cert_tracking: Remove {type} alert for {recip} on this certificate
+my_account_is_the_recipient: My account is the recipient
+alert_configured: Alert configured
+emailtracker: Email
+smstracker: SMS
+watracker: Whatsapp
+collapse: Collapse
+activate: Activate

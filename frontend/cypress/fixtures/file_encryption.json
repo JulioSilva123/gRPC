@@ -1,0 +1,5 @@
+{
+  "oringinalFile": "testFiles/file_encryption.txt",
+  "encryptedFile": "testFiles/file_encryption.txt.dlp",
+  "pwd": "1234567812345678"
+}

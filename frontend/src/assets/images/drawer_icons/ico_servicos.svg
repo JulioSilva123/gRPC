@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+	 height="22px" viewBox="0 0 24 22" style="overflow:visible;enable-background:new 0 0 24 22;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C1AA35;}
+</style>
+<defs>
+</defs>
+<g>
+	<g>
+		<polygon class="st0" points="24,22 0,22 0,5 16,5 16,7 2,7 2,20 22,20 22,0 24,0 		"/>
+	</g>
+	<g>
+		<rect x="18" y="5" class="st0" width="2" height="13"/>
+	</g>
+	<g>
+		<rect x="14" y="13" class="st0" width="2" height="5"/>
+	</g>
+	<g>
+		<rect x="4" y="9" class="st0" width="4" height="2"/>
+	</g>
+	<g>
+		<rect x="4" y="13" class="st0" width="8" height="2"/>
+	</g>
+</g>
+</svg>
